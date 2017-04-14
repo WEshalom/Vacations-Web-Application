@@ -1,0 +1,52 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+
+        <div class="jumbotron">
+            <h1 class="display-3">Welcome To Vacations</h1>
+            <p class="lead">View and Create Vacations Anywhere in the World</p>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-3">
+                <p>Login to view Vacations or add a Vacation.</p>
+                <p><a class="btn btn-lg btn-success" onclick="location.href='@Url.Action("Login", "Home")'"  role="button">Login</a></p>
+            </div>
+
+            <div class="col-lg-9">
+                <h4>Find Your Dream Vacation</h4>
+                <p>No need to deal with pesky travel agents and endless phone calls.</p>
+                <p>Search for Vacations and login to comment.</p>
+                <p><a class="btn btn-lg btn-success" onclick="location.href='@Url.Action("Search", "Home")'" role="button">Search</a></p>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <p>&copy; Company 2017</p>
+        </footer>
+
+    <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
